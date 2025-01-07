@@ -1,0 +1,106 @@
+/* Wrapper to center the login card */
+.auth-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #008353; /* Background color changed */
+}
+
+/* Login card */
+.auth-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title and subtitle */
+.auth-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.auth-subtitle {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.auth-input:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 4px rgba(110, 142, 251, 0.5);
+}
+
+/* Error message */
+.error-alert {
+    background: #ffdddd;
+    color: #d8000c;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Login button */
+.auth-button {
+    background: #008353; /* Background color changed */
+    color: #ffffff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+    background: #006f43; /* Slightly darker shade for hover */
+}
+
+/* Footer and links */
+.auth-footer {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.auth-link {
+    color: #008353; /* Background color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+}
